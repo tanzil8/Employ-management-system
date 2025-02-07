@@ -16,7 +16,7 @@ const EmploySchema = new Schema(
     },
     phone: {
       type: Number, // Changed from Number to String for phone number
-      required: true,
+   
       trim: true,
     },
     department: {
